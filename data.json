@@ -1,0 +1,5 @@
+{
+  "ADMIN-ROOT-001": { "type":"admin","password":null,"deviceId":null,"expire":null,"servers":["server-main"],"banned":false },
+  "VIP-30D-A9F3": { "type":"paid","password":null,"deviceId":null,"expire":"2026-02-05","servers":["server-vip-1"],"banned":false },
+  "FREE-7D-111": { "type":"free","password":null,"deviceId":null,"expire":"2026-01-12","servers":["server-free"],"banned":false }
+}
