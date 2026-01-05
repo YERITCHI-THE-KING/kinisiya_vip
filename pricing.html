@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>KINISIYA VIP - الأسعار</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>💎 KINISIYA VIP</h1>
+
+<div class="card">
+  <h2>🆓 مجاني</h2>
+  <input type="text" id="freeCode" placeholder="ضع الكود المجاني">
+  <button onclick="registerFree()">تسجيل مجاني</button>
+</div>
+
+<div class="card">
+  <h2>💎 مدفوع</h2>
+  <input type="text" id="paidCode" placeholder="كود جديد">
+  <select id="duration">
+    <option value="7">أسبوع</option>
+    <option value="30">شهر</option>
+    <option value="365">سنة</option>
+    <option value="9999">دائم</option>
+  </select>
+  <button onclick="createPaidCode()">إنشاء كود مدفوع</button>
+  <div id="paidList"></div>
+</div>
+
+<p style="color:yellow;">
+🔔 قبل الدفع خذ لقطة شاشة وراسلنا على تيليجرام @yekay6
+</p>
+<a href="https://www.paypal.com/paypalme/fahd.mohmd.1333.9" target="_blank">الدفع عبر PayPal</a>
+
+<script src="app.js"></script>
+</body>
+</html>
